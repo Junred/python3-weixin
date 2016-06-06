@@ -9,6 +9,11 @@ Email:  cacique1103@gmail.com
 Github: https://github.com/zongxiao
 Date:   2015-02-06
 Description: Weixin OAuth2
+
+modifitor: ykbj
+email: yk1001@live.cn
+github: https://githu.com/ykbj
+date:1026-06-06
 """
 
 

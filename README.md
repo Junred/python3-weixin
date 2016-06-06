@@ -1,39 +1,22 @@
-python-weixin
+python3-weixin
 -----
-A Python client for the Weixin REST APIs
+A Python 3.x client for the Weixin REST APIs
 
-0.1.5 添加 模板消息处理
+0.0.9 添加 Python 3.x支持
 -----
-添加模板消息处理
-
-0.1.4 新增功能
------
-添加消息回复模块 加密解密模块
-
-0.1.3 新增功能
------
+功能：
+支持 模板消息处理
+支持 消息回复模块 加密解密模块
 支持 自定义公众号菜单管理（添加|删除）
 支持 客服管理（添加|修改|删除|获取）
 支持 发送客服消息
 支持 发送模板消息
-
-
-0.1.2 新增功能
------
-完善服务异常处理
-
-0.1.1 新增功能
------
-完善服务异常处理
-
-0.1.0 功能
------
 微信公众平台 和开放平台 支持
 
 
 Installation
 -----
-pip install python-weixin
+pip install python3-weixin
 
 Requires
 -----
