@@ -136,8 +136,8 @@ class OAuth2AuthExchangeRequest(object):
         if scope:
             app_params.update(scope=' '.join(scope))
         str_app_parmas = {}
-        for k, v in app_params.iteritems():
-            str_app_parmas[k] = unicode(v).encode('utf-8')
+        for k, v in app_params.items():
+            str_app_parmas[k] = str(v).encode('utf-8')
         url_params = urlencode(str_app_parmas)
         if code:
             return "%s?%s" % (self.api.access_token_url, url_params)
